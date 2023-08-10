@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vostok.CodeAnalysis.StructuredLogging", "Vostok.CodeAnalysis.StructuredLogging\Vostok.CodeAnalysis.StructuredLogging.csproj", "{265F66DC-0CF0-4C99-AF9B-46F439C1DF6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vostok.CodeAnalysis.StructuredLogging.CodeFixes", "Vostok.CodeAnalysis.StructuredLogging.CodeFixes\Vostok.CodeAnalysis.StructuredLogging.CodeFixes.csproj", "{F6F5C3A4-31D6-41AA-9CE1-C77B3DDC83D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vostok.CodeAnalysis.StructuredLogging.Package", "Vostok.CodeAnalysis.StructuredLogging.Package\Vostok.CodeAnalysis.StructuredLogging.Package.csproj", "{A765ED31-6607-4F3A-9101-F48D690984B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vostok.CodeAnalysis.StructuredLogging.Test", "Vostok.CodeAnalysis.StructuredLogging.Test\Vostok.CodeAnalysis.StructuredLogging.Test.csproj", "{C231AC09-EF67-4559-8A81-A89FCE84BA71}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{265F66DC-0CF0-4C99-AF9B-46F439C1DF6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{265F66DC-0CF0-4C99-AF9B-46F439C1DF6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{265F66DC-0CF0-4C99-AF9B-46F439C1DF6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{265F66DC-0CF0-4C99-AF9B-46F439C1DF6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6F5C3A4-31D6-41AA-9CE1-C77B3DDC83D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6F5C3A4-31D6-41AA-9CE1-C77B3DDC83D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6F5C3A4-31D6-41AA-9CE1-C77B3DDC83D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6F5C3A4-31D6-41AA-9CE1-C77B3DDC83D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A765ED31-6607-4F3A-9101-F48D690984B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A765ED31-6607-4F3A-9101-F48D690984B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A765ED31-6607-4F3A-9101-F48D690984B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A765ED31-6607-4F3A-9101-F48D690984B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C231AC09-EF67-4559-8A81-A89FCE84BA71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C231AC09-EF67-4559-8A81-A89FCE84BA71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C231AC09-EF67-4559-8A81-A89FCE84BA71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C231AC09-EF67-4559-8A81-A89FCE84BA71}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
