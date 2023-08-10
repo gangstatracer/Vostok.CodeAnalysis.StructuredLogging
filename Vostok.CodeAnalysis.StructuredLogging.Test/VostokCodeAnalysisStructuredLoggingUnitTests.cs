@@ -52,7 +52,11 @@ public class VostokCodeAnalysisStructuredLoggingUnitTest
         }
     }";
 
-        var expected = VerifyCS.Diagnostic("VostokCodeAnalysisStructuredLogging").WithLocation(0).WithArguments("TypeName");
+        var expected = VerifyCS
+            .Diagnostic("VostokCodeAnalysisStructuredLogging")
+            .WithLocation(0)
+            .WithArguments("TypeName");
+
         await VerifyCS.VerifyCodeFixAsync(test, expected, fixtest);
     }
 }
